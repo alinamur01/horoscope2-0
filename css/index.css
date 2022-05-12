@@ -1,0 +1,139 @@
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 65px;
+  margin: 0 auto;
+  font-weight: lighter;
+  
+}
+
+.addPerson {
+  font-size: 1.12rem;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  background:rgba(30, 46, 102, 0.345)
+  
+}
+
+.resultsContainers{
+  display: flex;
+  margin: 0 auto;
+  max-width: 850px;
+  width: 80%;
+
+}
+
+ 
+.cardLi {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 280px;
+  padding: 0 3% 3% 0;
+  
+}
+
+span{
+  display: block;
+  font-weight: bolder;
+  font-size: 1.80rem;
+}
+
+button {
+
+  width: 36%;
+  font-weight: bold;
+  border-radius: 10px;
+  align-self: center;
+  padding: 5.5px;
+  margin-left: 10px;
+  background: var(--background);
+  color: rgba(3, 2, 9, 0.75);
+}
+
+input {
+  margin-right: 30px;
+  background: var(--background);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+label,
+input {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  align-content: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#birthdate {
+  /* text-align: ; */
+}
+
+
+
+
+.birthdateForm, .nameForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+.formContainer{
+  max-width: 520px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap;
+  justify-self: flex-start; */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.zodiacImage {
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*start of modal */
+
+.delete, .edit {
+  padding:  0 6px;
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: rgba(211, 204, 195, 0.9);
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;;
+  font-weight: 400px;
+  color:aliceblue
+ 
+}
+
+.backgroundStyle { 
+  background-image: url("../images/background.jpg");
+  /* background-blend-mode: multiply; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
